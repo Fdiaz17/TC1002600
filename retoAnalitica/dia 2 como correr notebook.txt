@@ -1,0 +1,5 @@
+Para ejecutar el notebook en jupiter, es necesario seguir los siguientes pasos:
+1) Abrir Anaconda
+2) Ejecutar Jupiter
+3) Asegurarse que el archivo MXVideosUTF8.csv se enceuntre en la misma carpeta que el archivo Entregable2 
+4) Abrir el archivo entregable2 desde jupiter y ejecutar los comandos en orden
