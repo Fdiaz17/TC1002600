@@ -1,0 +1,22 @@
+1) Abrir PANDA
+2) Dentro de la aplicación procedemos abrir Jupyter
+3) Abrimos nuestro archivo .csv con el siguiente comando:
+
+import pandas
+base = pandas.read_csv('Prime Tv Shows.csv')
+print(base)
+
+4) Para identificar nuestras variables dentro de nuestra base de datos utilizamos el siguiente comando:
+
+i=0
+for columns in base:
+    print (base.columns[i])
+    i=i+1
+
+5) Para obtener las medidas de tendencia central y otras, utilizamos el siguiente comando:
+
+base.describe()
+
+6) Y si queremos obtener las mismas medidas para una variable individual se utiliza el siguiente comando:
+
+base['NOMBRE DE VARIABLE'].describe()
