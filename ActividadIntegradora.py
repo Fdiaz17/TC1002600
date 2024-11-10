@@ -13,7 +13,7 @@ st.markdown("<h1 style= 'text-align: center;color: #F2F9FF;'>Police Department o
 st.markdown("---")
 #----------------------------------------------
 #--- DF Config & DATA CLEANING---
-df=pd.read_csv("./data/Police_Department_Incident_Reports__2018_to_Present.csv")
+df=pd.read_csv("/Users/fabioladiaznieto/Documents/TI3002C-main/Act_Integradora_UF6-main/Police.csv")
 df=df.drop(['Report Datetime', 'Row ID', 'Incident ID',
        'Incident Number', 'CAD Number', 'Report Type Code',
        'Report Type Description', 'Filed Online', 'Incident Code','Incident Subcategory', 'Incident Description',
